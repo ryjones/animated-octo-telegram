@@ -1,115 +1,594 @@
 {
-  "LFDT-Nightstream": [
-    "MVE-Planning",
-    "Nightstream",
-    "Starstream"
-  ],
-  "LFDT-Verii": [
-    "core"
-  ],
-  "OpenReagent": [
-    "openreagent"
-  ],
-  "OpenVTC": [
-    "dtg-credentials",
-    "OpenVTC",
-    "verifiable_trust_infrastructure"
-  ],
-  "hyperledger-bevel": [
-    "bevel",
-    "bevel-operator-fabric",
-    "bevel-samples"
-  ],
-  "hyperledger-caliper": [
-    "caliper",
-    "caliper-benchmarks"
-  ],
-  "hyperledger-cello": [
-    "cello"
-  ],
-  "hyperledger-labs": [
-    "acapy-java-client",
-    "aifaq",
-    "bdls",
-    "cc-tools",
-    "cc-tools-demo",
-    "cc-tools-doc",
-    "documentation-template",
-    "fablo",
-    "fabric-ansible-collection",
-    "fabric-builder-k8s",
-    "fabric-chaincode-builder",
-    "fabric-debugger",
-    "fabric-operations-console",
-    "fabric-operator",
-    "fabric-smart-client",
-    "fabric-token-sdk",
-    "go-perun",
-    "hlf-connector",
-    "hyperledger-community-management-tools",
-    "learning-tokens",
-    "microfab",
-    "perun-cosmwasm-backend",
-    "perun-cosmwasm-contract",
-    "perun-credential-payment",
-    "perun-doc",
-    "perun-eth-backend",
-    "perun-eth-contracts",
-    "perun-node",
-    "perun-proposals",
-    "perun-rs",
-    "SmartBFT",
-    "splice",
-    "splice-runner-container-hooks",
-    "splice-shared-gha",
-    "splice-wallet-kernel",
-    "yui-corda-ibc",
-    "yui-docs",
-    "yui-fabric-ibc",
-    "yui-ibc-solidity",
-    "yui-relayer"
-  ],
-  "LF-Decentralized-Trust-labs": [
-    "agora-allosaurus-rs",
-    "agora-bbs",
-    "agora-blsful",
-    "agora-glass_pumpkin",
-    "agora-key-share-proofs",
-    "agora-unknown_order",
-    "agora-verifiable-encryption",
-    "aries-bbssignatures-rs",
-    "aries-framework-kotlin",
-    "aries-framework-swift",
-    "aries-uniffi-wrappers",
-    "artizyou",
-    "cbweb3",
-    "chaindeploy",
-    "decentralized-directory-protocol",
-    "dtg-credentials",
-    "fabino-test",
-    "fabric-chaincode-rust",
-    "fabric-sdk-rust",
-    "fabric-x-ansible-collection",
-    "fabric-x-block-explorer",
-    "flavum",
-    "gitmesh",
-    "HOPrS",
-    "hypernate",
-    "hypernate-samples",
-    "identity-bot",
-    "Naryo",
-    "one-attestation-api",
-    "opendecentra-nextg",
-    "openvtc",
-    "proof-of-process",
-    "verazt",
-    "verifiable-trust-infrastructure",
-    "waterfall-coordinator",
-    "waterfall-docs",
-    "waterfall-gwat",
-    "waterfall-one-click-setup-app",
-    "zk-learning-group",
-    "zkbk",
-    "zkproof-polycommit"
+  "labs": [
+    {
+      "display_name": "Agora",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "agora-allosaurus-rs"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "agora-bbs"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "agora-blsful"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "agora-glass_pumpkin"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "agora-key-share-proofs"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "agora-unknown_order"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "agora-verifiable-encryption"
+        }
+      ]
+    },
+    {
+      "display_name": "Aifaq",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "aifaq"
+        }
+      ]
+    },
+    {
+      "display_name": "Aries",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "aries-bbssignatures-rs"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "acapy-java-client"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "aries-framework-kotlin"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "aries-framework-swift"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "aries-uniffi-wrappers"
+        }
+      ]
+    },
+    {
+      "display_name": "Artizyou",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "artizyou"
+        }
+      ]
+    },
+    {
+      "display_name": "Bdls",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "bdls"
+        }
+      ]
+    },
+    {
+      "display_name": "Bevel",
+      "repositories": [
+        {
+          "org": "hyperledger-bevel",
+          "name": "bevel"
+        },
+        {
+          "org": "hyperledger-bevel",
+          "name": "bevel-operator-fabric"
+        },
+        {
+          "org": "hyperledger-bevel",
+          "name": "bevel-samples"
+        }
+      ]
+    },
+    {
+      "display_name": "Caliper",
+      "repositories": [
+        {
+          "org": "hyperledger-caliper",
+          "name": "caliper"
+        },
+        {
+          "org": "hyperledger-caliper",
+          "name": "caliper-benchmarks"
+        }
+      ]
+    },
+    {
+      "display_name": "Cbweb3",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "cbweb3"
+        }
+      ]
+    },
+    {
+      "display_name": "Cc-tools",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "cc-tools"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "cc-tools-demo"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "cc-tools-doc"
+        }
+      ]
+    },
+    {
+      "display_name": "Cello",
+      "repositories": [
+        {
+          "org": "hyperledger-cello",
+          "name": "cello"
+        }
+      ]
+    },
+    {
+      "display_name": "Chaindeploy",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "chaindeploy"
+        }
+      ]
+    },
+    {
+      "display_name": "Verii",
+      "repositories": [
+        {
+          "org": "LFDT-Verii",
+          "name": "core"
+        }
+      ]
+    },
+    {
+      "display_name": "Decentralized Directory Protocol",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "decentralized-directory-protocol"
+        }
+      ]
+    },
+    {
+      "display_name": "Documentation Template",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "documentation-template"
+        }
+      ]
+    },
+    {
+      "display_name": "OpenVTC",
+      "repositories": [
+        {
+          "org": "OpenVTC",
+          "name": "OpenVTC"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "openvtc"
+        },
+        {
+          "org": "OpenVTC",
+          "name": "verifiable_trust_infrastructure"
+        },
+        {
+          "org": "OpenVTC",
+          "name": "dtg-credentials"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "dtg-credentials"
+        }
+      ]
+    },
+    {
+      "display_name": "Fabino Test",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "fabino-test"
+        }
+      ]
+    },
+    {
+      "display_name": "Fablo",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "fablo"
+        }
+      ]
+    },
+    {
+      "display_name": "Fabric",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "fabric-ansible-collection"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "fabric-builder-k8s"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "fabric-chaincode-builder"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "fabric-debugger"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "fabric-operations-console"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "fabric-operator"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "fabric-smart-client"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "fabric-token-sdk"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "fabric-chaincode-rust"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "fabric-sdk-rust"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "fabric-x-ansible-collection"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "fabric-x-block-explorer"
+        }
+      ]
+    },
+    {
+      "display_name": "Flavum",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "flavum"
+        }
+      ]
+    },
+    {
+      "display_name": "Gitmesh",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "gitmesh"
+        }
+      ]
+    },
+    {
+      "display_name": "Hlf Connector",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "hlf-connector"
+        }
+      ]
+    },
+    {
+      "display_name": "Hoprs",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "HOPrS"
+        }
+      ]
+    },
+    {
+      "display_name": "Hypernate",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "hypernate"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "hypernate-samples"
+        }
+      ]
+    },
+    {
+      "display_name": "Identity Bot",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "identity-bot"
+        }
+      ]
+    },
+    {
+      "display_name": "Learning Tokens",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "learning-tokens"
+        }
+      ]
+    },
+    {
+      "display_name": "Microfab",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "microfab"
+        }
+      ]
+    },
+    {
+      "display_name": "Naryo",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "Naryo"
+        }
+      ]
+    },
+    {
+      "display_name": "Nightstream",
+      "repositories": [
+        {
+          "org": "LFDT-Nightstream",
+          "name": "MVE-Planning"
+        },
+        {
+          "org": "LFDT-Nightstream",
+          "name": "Nightstream"
+        },
+        {
+          "org": "LFDT-Nightstream",
+          "name": "Starstream"
+        }
+      ]
+    },
+    {
+      "display_name": "One Attestation Api",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "one-attestation-api"
+        }
+      ]
+    },
+    {
+      "display_name": "Opendecentra Nextg",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "opendecentra-nextg"
+        }
+      ]
+    },
+    {
+      "display_name": "Openreagent",
+      "repositories": [
+        {
+          "org": "OpenReagent",
+          "name": "openreagent"
+        }
+      ]
+    },
+    {
+      "display_name": "Openvtc",
+      "repositories": []
+    },
+    {
+      "display_name": "Perun",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "go-perun"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "perun-cosmwasm-backend"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "perun-cosmwasm-contract"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "perun-credential-payment"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "perun-doc"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "perun-eth-backend"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "perun-eth-contracts"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "perun-node"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "perun-proposals"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "perun-rs"
+        }
+      ]
+    },
+    {
+      "display_name": "Proof Of Process",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "proof-of-process"
+        }
+      ]
+    },
+    {
+      "display_name": "Smartbft",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "SmartBFT"
+        }
+      ]
+    },
+    {
+      "display_name": "Splice",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "splice"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "splice-runner-container-hooks"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "splice-shared-gha"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "splice-wallet-kernel"
+        }
+      ]
+    },
+    {
+      "display_name": "Verazt",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "verazt"
+        }
+      ]
+    },
+    {
+      "display_name": "Verifiable Trust Infrastructure",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "verifiable-trust-infrastructure"
+        }
+      ]
+    },
+    {
+      "display_name": "Waterfall",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "waterfall-coordinator"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "waterfall-docs"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "waterfall-gwat"
+        },
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "waterfall-one-click-setup-app"
+        }
+      ]
+    },
+    {
+      "display_name": "Yui",
+      "repositories": [
+        {
+          "org": "hyperledger-labs",
+          "name": "yui-corda-ibc"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "yui-docs"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "yui-fabric-ibc"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "yui-ibc-solidity"
+        },
+        {
+          "org": "hyperledger-labs",
+          "name": "yui-relayer"
+        }
+      ]
+    },
+    {
+      "display_name": "Zk Learning Group",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "zk-learning-group"
+        }
+      ]
+    },
+    {
+      "display_name": "Zkbk",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "zkbk"
+        }
+      ]
+    },
+    {
+      "display_name": "Zkproof Polycommit",
+      "repositories": [
+        {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "zkproof-polycommit"
+        }
+      ]
+    }
   ]
 }
