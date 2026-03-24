@@ -1,286 +1,115 @@
 {
-  "hyperledger-labs/perun-cosmwasm-contract": [
-  ]
-,
-  "hyperledger-labs/perun-proposals": [
-  ]
-,
-  "hyperledger-labs/yui-fabric-ibc": [
-  ]
-,
-  "hyperledger-labs/perun-doc": [
-  ]
-,
-  "hyperledger-labs/yui-corda-ibc": [
-  ]
-,
-  "hyperledger-labs/perun-rs": [
-  ]
-,
-  "hyperledger-labs/perun-node": [
-  ]
-,
-  "hyperledger-labs/yui-docs": [
-  ]
-,
-  "hyperledger-labs/acapy-java-client": [
-  ]
-,
-  "hyperledger-labs/cc-tools-doc": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/agora-verifiable-encryption": [
-  ]
-,
-  "hyperledger-bevel/bevel-samples": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/aries-bbssignatures-rs": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/agora-allosaurus-rs": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/HOPrS": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/agora-bbs": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/waterfall-one-click-setup-app": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/aries-framework-swift": [
-  ]
-,
-  "hyperledger-labs/microfab": [
-  ]
-,
-  "hyperledger-labs/yui-ibc-solidity": [
-  ]
-,
-  "hyperledger-labs/documentation-template": [
-  ]
-,
-  "hyperledger-labs/perun-credential-payment": [
-  ]
-,
-  "hyperledger-labs/fabric-ansible-collection": [
-  ]
-,
-  "hyperledger-labs/perun-cosmwasm-backend": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/waterfall-coordinator": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/waterfall-gwat": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/waterfall-docs": [
-  ]
-,
-  "hyperledger-labs/aifaq": [
-  ]
-,
-  "hyperledger-labs/perun-eth-contracts": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/hypernate-samples": [
-  ]
-,
-  "hyperledger-labs/perun-eth-backend": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/fabric-chaincode-rust": [
-  ]
-,
-  "hyperledger-caliper/caliper-benchmarks": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/zkproof-polycommit": [
-  ]
-,
-  "hyperledger-labs/splice-runner-container-hooks": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/agora-key-share-proofs": [
-  ]
-,
-  "hyperledger-bevel/bevel": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/aries-framework-kotlin": [
-  ]
-,
-  "hyperledger-labs/fabric-chaincode-builder": [
-  ]
-,
-  "hyperledger-labs/cc-tools": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/hypernate": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/fabino-test": [
-  ]
-,
-  "hyperledger-labs/cc-tools-demo": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/aries-uniffi-wrappers": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/artizyou": [
-  ]
-,
-  "hyperledger-caliper/caliper": [
-  ]
-,
-  "hyperledger-labs/fabric-debugger": [
-  ]
-,
-  "hyperledger-labs/go-perun": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/decentralized-directory-protocol": [
-  ]
-,
-  "hyperledger-bevel/bevel-operator-fabric": [
-  ]
-,
-  "hyperledger-labs/bdls": [
-  ]
-,
-  "hyperledger-labs/learning-tokens": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/one-attestation-api": [
-  ]
-,
-  "hyperledger-labs/fabric-operator": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/opendecentra-nextg": [
-  ]
-,
-  "hyperledger-cello/cello": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/flavum": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/agora-blsful": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/agora-glass_pumpkin": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/agora-unknown_order": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/zkbk": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/fabric-sdk-rust": [
-  ]
-,
-  "hyperledger-labs/fablo": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/dtg-credentials": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/openvtc": [
-  ]
-,
-  "OpenReagent/openreagent": [
-  ]
-,
-  "OpenVTC/OpenVTC": [
-  ]
-,
-  "OpenVTC/verifiable_trust_infrastructure": [
-  ]
-,
-  "OpenVTC/dtg-credentials": [
-  ]
-,
-  "hyperledger-labs/SmartBFT": [
-  ]
-,
-  "LFDT-Nightstream/Nightstream": [
-  ]
-,
-  "hyperledger-labs/yui-relayer": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/gitmesh": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/fabric-x-block-explorer": [
-  ]
-,
-  "hyperledger-labs/hlf-connector": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/chaindeploy": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/zk-learning-group": [
-  ]
-,
-  "hyperledger-labs/fabric-builder-k8s": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/verifiable-trust-infrastructure": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/Naryo": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/LF-Decentralized-Trust-labs.github.io": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/cbweb3": [
-  ]
-,
-  "hyperledger-labs/fabric-operations-console": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/identity-bot": [
-  ]
-,
-  "hyperledger-labs/fabric-token-sdk": [
-  ]
-,
-  "hyperledger-labs/fabric-smart-client": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/proof-of-process": [
-  ]
-,
-  "hyperledger-labs/splice-wallet-kernel": [
-  ]
-,
-  "LFDT-Nightstream/MVE-Planning": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/verazt": [
-  ]
-,
-  "LFDT-Nightstream/Starstream": [
-  ]
-,
-  "LF-Decentralized-Trust-labs/fabric-x-ansible-collection": [
-  ]
-,
-  "LFDT-Verii/core": [
-  ]
-,
-  "hyperledger-labs/splice-shared-gha": [
-  ]
-,
-  "hyperledger-labs/splice": [
+  "LFDT-Nightstream": [
+    "MVE-Planning",
+    "Nightstream",
+    "Starstream"
+  ],
+  "LFDT-Verii": [
+    "core"
+  ],
+  "OpenReagent": [
+    "openreagent"
+  ],
+  "OpenVTC": [
+    "dtg-credentials",
+    "OpenVTC",
+    "verifiable_trust_infrastructure"
+  ],
+  "hyperledger-bevel": [
+    "bevel",
+    "bevel-operator-fabric",
+    "bevel-samples"
+  ],
+  "hyperledger-caliper": [
+    "caliper",
+    "caliper-benchmarks"
+  ],
+  "hyperledger-cello": [
+    "cello"
+  ],
+  "hyperledger-labs": [
+    "acapy-java-client",
+    "aifaq",
+    "bdls",
+    "cc-tools",
+    "cc-tools-demo",
+    "cc-tools-doc",
+    "documentation-template",
+    "fablo",
+    "fabric-ansible-collection",
+    "fabric-builder-k8s",
+    "fabric-chaincode-builder",
+    "fabric-debugger",
+    "fabric-operations-console",
+    "fabric-operator",
+    "fabric-smart-client",
+    "fabric-token-sdk",
+    "go-perun",
+    "hlf-connector",
+    "hyperledger-community-management-tools",
+    "learning-tokens",
+    "microfab",
+    "perun-cosmwasm-backend",
+    "perun-cosmwasm-contract",
+    "perun-credential-payment",
+    "perun-doc",
+    "perun-eth-backend",
+    "perun-eth-contracts",
+    "perun-node",
+    "perun-proposals",
+    "perun-rs",
+    "SmartBFT",
+    "splice",
+    "splice-runner-container-hooks",
+    "splice-shared-gha",
+    "splice-wallet-kernel",
+    "yui-corda-ibc",
+    "yui-docs",
+    "yui-fabric-ibc",
+    "yui-ibc-solidity",
+    "yui-relayer"
+  ],
+  "LF-Decentralized-Trust-labs": [
+    "agora-allosaurus-rs",
+    "agora-bbs",
+    "agora-blsful",
+    "agora-glass_pumpkin",
+    "agora-key-share-proofs",
+    "agora-unknown_order",
+    "agora-verifiable-encryption",
+    "aries-bbssignatures-rs",
+    "aries-framework-kotlin",
+    "aries-framework-swift",
+    "aries-uniffi-wrappers",
+    "artizyou",
+    "cbweb3",
+    "chaindeploy",
+    "decentralized-directory-protocol",
+    "dtg-credentials",
+    "fabino-test",
+    "fabric-chaincode-rust",
+    "fabric-sdk-rust",
+    "fabric-x-ansible-collection",
+    "fabric-x-block-explorer",
+    "flavum",
+    "gitmesh",
+    "HOPrS",
+    "hypernate",
+    "hypernate-samples",
+    "identity-bot",
+    "Naryo",
+    "one-attestation-api",
+    "opendecentra-nextg",
+    "openvtc",
+    "proof-of-process",
+    "verazt",
+    "verifiable-trust-infrastructure",
+    "waterfall-coordinator",
+    "waterfall-docs",
+    "waterfall-gwat",
+    "waterfall-one-click-setup-app",
+    "zk-learning-group",
+    "zkbk",
+    "zkproof-polycommit"
   ]
 }
