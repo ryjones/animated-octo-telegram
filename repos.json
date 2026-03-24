@@ -191,10 +191,6 @@
       "repositories": [
         {
           "org": "OpenVTC",
-          "name": "OpenVTC"
-        },
-        {
-          "org": "LF-Decentralized-Trust-labs",
           "name": "openvtc"
         },
         {
@@ -202,15 +198,7 @@
           "name": "verifiable_trust_infrastructure"
         },
         {
-          "org": "LF-Decentralized-Trust-labs",
-          "name": "verifiable-trust-infrastructure"
-        },
-        {
           "org": "OpenVTC",
-          "name": "dtg-credentials"
-        },
-        {
-          "org": "LF-Decentralized-Trust-labs",
           "name": "dtg-credentials"
         }
       ]
