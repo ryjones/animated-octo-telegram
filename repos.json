@@ -34,7 +34,7 @@
       ]
     },
     {
-      "display_name": "Aifaq",
+      "display_name": "AIFAQ",
       "repositories": [
         {
           "org": "hyperledger-labs",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "display_name": "Aries",
+      "display_name": "Aries labs",
       "repositories": [
         {
           "org": "LF-Decentralized-Trust-labs",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "display_name": "Bdls",
+      "display_name": "BDLS",
       "repositories": [
         {
           "org": "hyperledger-labs",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "display_name": "Cbweb3",
+      "display_name": "CBWeb3",
       "repositories": [
         {
           "org": "LF-Decentralized-Trust-labs",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "display_name": "Cc-tools",
+      "display_name": "CC-tools",
       "repositories": [
         {
           "org": "hyperledger-labs",
@@ -202,6 +202,10 @@
           "name": "verifiable_trust_infrastructure"
         },
         {
+          "org": "LF-Decentralized-Trust-labs",
+          "name": "verifiable-trust-infrastructure"
+        },
+        {
           "org": "OpenVTC",
           "name": "dtg-credentials"
         },
@@ -230,7 +234,7 @@
       ]
     },
     {
-      "display_name": "Fabric",
+      "display_name": "Fabric labs",
       "repositories": [
         {
           "org": "hyperledger-labs",
@@ -301,7 +305,7 @@
       ]
     },
     {
-      "display_name": "Hlf Connector",
+      "display_name": "Hyperledger Fabric Connector",
       "repositories": [
         {
           "org": "hyperledger-labs",
@@ -310,7 +314,7 @@
       ]
     },
     {
-      "display_name": "Hoprs",
+      "display_name": "HOPrS",
       "repositories": [
         {
           "org": "LF-Decentralized-Trust-labs",
@@ -403,17 +407,13 @@
       ]
     },
     {
-      "display_name": "Openreagent",
+      "display_name": "OpenReagent",
       "repositories": [
         {
           "org": "OpenReagent",
           "name": "openreagent"
         }
       ]
-    },
-    {
-      "display_name": "Openvtc",
-      "repositories": []
     },
     {
       "display_name": "Perun",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "display_name": "Smartbft",
+      "display_name": "SmartBFT",
       "repositories": [
         {
           "org": "hyperledger-labs",
@@ -505,15 +505,6 @@
         {
           "org": "LF-Decentralized-Trust-labs",
           "name": "verazt"
-        }
-      ]
-    },
-    {
-      "display_name": "Verifiable Trust Infrastructure",
-      "repositories": [
-        {
-          "org": "LF-Decentralized-Trust-labs",
-          "name": "verifiable-trust-infrastructure"
         }
       ]
     },
